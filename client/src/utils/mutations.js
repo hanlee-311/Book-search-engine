@@ -31,7 +31,7 @@ export const SAVE_BOOK = gql`
             username
             email
             savedBooks {
-                bookId
+                bookID
                 authors
                 image
                 description
