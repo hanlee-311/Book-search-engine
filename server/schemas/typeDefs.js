@@ -10,7 +10,7 @@ type User {
 }
 
   type Book {
-    bookId: String!
+    bookId: ID!
     authors: [String]
     description: String
     image: String
@@ -40,7 +40,7 @@ type User {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
     saveBook(bookData: BookInput!): User
-    removeBook(bookId: String!): User
+    removeBook(bookId: ID!): User
   }
 `;
 
