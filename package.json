@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,5 +14,16 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanlee-311/Book-search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanlee-311/Book-search-engine/issues"
+  },
+  "homepage": "https://github.com/hanlee-311/Book-search-engine#readme",
+  "dependencies": {
+    "install": "^0.13.0"
   }
 }
